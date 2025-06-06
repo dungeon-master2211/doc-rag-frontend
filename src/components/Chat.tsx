@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from "react";
 import {useNavigate} from 'react-router'
 import axios from 'axios'
 import { backend_url } from "@/config";
-import { toast } from "react-toastify";
 import { Skeleton } from "@/components/ui/skeleton"
 interface Message {
   sender: "user" | "bot";
