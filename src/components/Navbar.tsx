@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
         <div>
             {
-               isLoggedIn && <Button variant={'destructive'} onClick={handleLogout}>LogOut</Button>
+               isLoggedIn && <Button variant={'destructive'} onClick={handleLogout}>Logout</Button>
             }
             
         </div>
